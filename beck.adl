@@ -1,0 +1,8746 @@
+
+file {
+	name="/dls_sw/i24/scripts/darren/beck/beck.adl"
+	version=030107
+}
+display {
+	object {
+		x=3972
+		y=23
+		width=855
+		height=650
+	}
+	clr=57
+	bclr=57
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		ffffff,
+		919191,
+		464646,
+		000000,
+		371a48,
+		c3a3e6,
+		d57cac,
+		ff3577,
+		fea597,
+		ad0747,
+		810253,
+		b0cc92,
+		eef207,
+		fff07f,
+		feae01,
+		f13f01,
+		d20607,
+		c6d8dc,
+		a9b2b7,
+		d5bda5,
+		577d58,
+		4f5a3a,
+		7f5e3d,
+		f16a56,
+		2c1b11,
+		1f1f41,
+		2c3e56,
+		61667c,
+		7099af,
+		5d3dc4,
+		0084c2,
+		0ec8bb,
+		009a66,
+		375659,
+	}
+}
+rectangle {
+	object {
+		x=471
+		y=94
+		width=35
+		height=12
+	}
+	"basic attribute" {
+		clr=61
+	}
+}
+rectangle {
+	object {
+		x=0
+		y=190
+		width=35
+		height=100
+	}
+	"basic attribute" {
+		clr=49
+	}
+}
+rectangle {
+	object {
+		x=831
+		y=190
+		width=22
+		height=80
+	}
+	"basic attribute" {
+		clr=50
+	}
+}
+rectangle {
+	object {
+		x=673
+		y=190
+		width=158
+		height=80
+	}
+	"basic attribute" {
+		clr=49
+	}
+}
+rectangle {
+	object {
+		x=482
+		y=190
+		width=191
+		height=80
+	}
+	"basic attribute" {
+		clr=50
+	}
+}
+rectangle {
+	object {
+		x=145
+		y=190
+		width=337
+		height=80
+	}
+	"basic attribute" {
+		clr=49
+	}
+}
+rectangle {
+	object {
+		x=35
+		y=190
+		width=111
+		height=60
+	}
+	"basic attribute" {
+		clr=50
+	}
+}
+rectangle {
+	object {
+		x=545
+		y=1179
+		width=72
+		height=54
+	}
+	"basic attribute" {
+		clr=38
+		width=3
+	}
+}
+text {
+	object {
+		x=2555
+		y=523
+		width=30
+		height=12
+	}
+	"basic attribute" {
+		clr=13
+	}
+	textix="1"
+}
+byte {
+	object {
+		x=511
+		y=60
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-01:FOIL.MSTA"
+		clr=58
+		bclr=0
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=567
+		y=60
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-DI-PHDGN-01:Y.MSTA"
+		clr=58
+		bclr=0
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=557
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-02:FOIL.MSTA"
+		clr=58
+		bclr=0
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=567
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-03:FOIL.MSTA"
+		clr=58
+		bclr=0
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=729
+		y=13
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-BL-01:Y.MSTA"
+		clr=58
+		bclr=43
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=666
+		y=60
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-OP-ATTN-01:DISC1.MSTA"
+		clr=58
+		bclr=45
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=675
+		y=60
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-OP-ATTN-01:DISC2.MSTA"
+		clr=58
+		bclr=45
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=684
+		y=60
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-04:DISC.MSTA"
+		clr=58
+		bclr=0
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=693
+		y=60
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-OP-VMFM-01:X.MSTA"
+		clr=58
+		bclr=46
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=702
+		y=60
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-OP-HMFM-01:X.MSTA"
+		clr=58
+		bclr=42
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=711
+		y=60
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-OP-MTAB-01:Z.MSTA"
+		clr=58
+		bclr=51
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=720
+		y=60
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-CSTRM-01:TRANS.MSTA"
+		clr=58
+		bclr=62
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=738
+		y=13
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-HGON-01:OMEGA.MSTA"
+		clr=58
+		bclr=36
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=675
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:OMEGA.MSTA"
+		clr=58
+		bclr=36
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=693
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:KAPPA.MSTA"
+		clr=58
+		bclr=36
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=702
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:PHI.MSTA"
+		clr=58
+		bclr=36
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=711
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-PTAB-01:X.MSTA"
+		clr=58
+		bclr=35
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=720
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-PTAB-01:Z.MSTA"
+		clr=58
+		bclr=35
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=738
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-PTAB-01:Y.MSTA"
+		clr=58
+		bclr=35
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=666
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:PINZS.MSTA"
+		clr=58
+		bclr=60
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=684
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:PINXS.MSTA"
+		clr=58
+		bclr=60
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=729
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:PINYH.MSTA"
+		clr=58
+		bclr=60
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+composite {
+	object {
+		x=471
+		y=107
+		width=37
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=471
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-DCM-01:BRAGG.MSTA"
+				clr=58
+				bclr=37
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=480
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-DCM-01:T2.MSTA"
+				clr=58
+				bclr=37
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=489
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-DCM-01:ROLL1.MSTA"
+				clr=58
+				bclr=37
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=498
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-DCM-01:PITCH2.MSTA"
+				clr=58
+				bclr=37
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=511
+		y=13
+		width=37
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=511
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-01:X:GAP.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=520
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-01:X:INBOARD.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=538
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-01:Y:BOTTOM.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=529
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-01:Y:GAP.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=548
+		y=13
+		width=37
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=548
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:X:PLUS.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=557
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:X:MINUS.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=566
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:Y:PLUS.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=575
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:Y:MINUS.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=511
+		y=107
+		width=46
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=511
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:Y1.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=520
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:Y2.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=529
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:Y3.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=538
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:X1.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=547
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:X2.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=589
+		y=13
+		width=37
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=589
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:X:GAP.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=598
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:X:INBOARD.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=607
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:Y:GAP.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=616
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:Y:TOP.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=626
+		y=13
+		width=37
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=626
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:X:GAP.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=635
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:X:INBOARD.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=644
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:Y:GAP.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=653
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:Y:TOP.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=589
+		y=60
+		width=19
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=589
+				y=60
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-VMFM-01:PITCH.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=598
+				y=60
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-VMFM-01:Y.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=608
+		y=60
+		width=19
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=608
+				y=60
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-HMFM-01:PITCH.MSTA"
+				clr=58
+				bclr=42
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=617
+				y=60
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-HMFM-01:Y.MSTA"
+				clr=58
+				bclr=42
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+byte {
+	object {
+		x=666
+		y=13
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-HGON-01:TRAYYS.MSTA"
+		clr=58
+		bclr=60
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=675
+		y=13
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-HGON-01:TRAYZS.MSTA"
+		clr=58
+		bclr=60
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=684
+		y=13
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-TTAB-01:XENC.MSTA"
+		clr=58
+		bclr=35
+	}
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=693
+		y=13
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-TTAB-01:Y.MSTA"
+		clr=58
+		bclr=35
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=702
+		y=13
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-TTAB-01:ZENC.MSTA"
+		clr=58
+		bclr=35
+	}
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=747
+		y=13
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-TTAB-01:X.MSTA"
+		clr=58
+		bclr=35
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=756
+		y=13
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-TTAB-01:Z.MSTA"
+		clr=58
+		bclr=35
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+composite {
+	object {
+		x=711
+		y=13
+		width=19
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=711
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-MO-CTAB-01:X1.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=720
+				y=13
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-MO-CTAB-01:X2.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+byte {
+	object {
+		x=778
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-AL-APTR-02:X.MSTA"
+		clr=58
+		bclr=45
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=787
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-AL-APTR-02:Y.MSTA"
+		clr=58
+		bclr=45
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=797
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-AL-APTR-01:X.MSTA"
+		clr=58
+		bclr=47
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=806
+		y=107
+		width=10
+		height=46
+	}
+	monitor {
+		chan="BL24I-AL-APTR-01:Y.MSTA"
+		clr=58
+		bclr=47
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+rectangle {
+	object {
+		x=774
+		y=303
+		width=12
+		height=46
+	}
+	"basic attribute" {
+		clr=48
+		width=3
+	}
+}
+byte {
+	object {
+		x=774
+		y=303
+		width=12
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-BL-01:Y.MSTA"
+		clr=47
+		bclr=43
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=673
+		y=303
+		width=12
+		height=46
+	}
+	monitor {
+		chan="BL24I-MO-CSTRM-01:TRANS.MSTA"
+		clr=58
+		bclr=62
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=415
+		y=336
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-OP-MTAB-01:Z.MSTA"
+		clr=43
+		bclr=51
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+"text update" {
+	object {
+		x=429
+		y=244
+		width=33
+		height=12
+	}
+	monitor {
+		chan="BL24I-OP-MTAB-01:Z.RBV"
+		clr=29
+		bclr=51
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=644
+		y=255
+		width=39
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-CSTRM-01:TRANS.RBV"
+		clr=0
+		bclr=62
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=729
+		y=278
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-HGON-01:OMEGA.RBV"
+		clr=14
+		bclr=36
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=730
+		y=244
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-TTAB-01:Z.RBV"
+		clr=1
+		bclr=35
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=730
+		y=233
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-TTAB-01:Y.RBV"
+		clr=1
+		bclr=35
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=730
+		y=222
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-TTAB-01:X.RBV"
+		clr=1
+		bclr=35
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+byte {
+	object {
+		x=78
+		y=303
+		width=12
+		height=46
+	}
+	monitor {
+		chan="BL24I-DI-PHDGN-01:Y.MSTA"
+		clr=3
+		bclr=3
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+composite {
+	object {
+		x=683
+		y=256
+		width=46
+		height=34
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=683
+				y=278
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-VGON-01:PHI.RBV"
+				clr=14
+				bclr=36
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=683
+				y=267
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-VGON-01:KAPPA.RBV"
+				clr=14
+				bclr=36
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=683
+				y=256
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-VGON-01:OMEGA.RBV"
+				clr=14
+				bclr=36
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=785
+		y=303
+		width=46
+		height=45
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=785
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:X.MSTA"
+				clr=3
+				bclr=45
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=785
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:Y.MSTA"
+				clr=3
+				bclr=45
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=785
+				y=325
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:Z.MSTA"
+				clr=3
+				bclr=45
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=785
+				y=336
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:ROTY.MSTA"
+				clr=3
+				bclr=45
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=785
+		y=245
+		width=46
+		height=45
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=785
+				y=278
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:ROTY.RBV"
+				clr=14
+				bclr=45
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=785
+				y=267
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:Z.RBV"
+				clr=14
+				bclr=45
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=785
+				y=256
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:Y.RBV"
+				clr=14
+				bclr=45
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=785
+				y=245
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:X.RBV"
+				clr=14
+				bclr=45
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+	}
+}
+"text update" {
+	object {
+		x=583
+		y=278
+		width=45
+		height=12
+	}
+	monitor {
+		chan="BL24I-AL-APTR-01:Y.RBV"
+		clr=0
+		bclr=47
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=583
+		y=267
+		width=45
+		height=12
+	}
+	monitor {
+		chan="BL24I-AL-APTR-01:X.RBV"
+		clr=0
+		bclr=47
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+composite {
+	object {
+		x=482
+		y=303
+		width=46
+		height=23
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=482
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-ATTN-01:DISC2.MSTA"
+				clr=58
+				bclr=45
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=482
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-ATTN-01:DISC1.MSTA"
+				clr=58
+				bclr=45
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=532
+		y=318
+		width=46
+		height=23
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=532
+				y=318
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-CTAB-01:X.MSTA"
+				clr=46
+				bclr=46
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=532
+				y=329
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-CTAB-01:Y.MSTA"
+				clr=46
+				bclr=46
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+rectangle {
+	object {
+		x=776
+		y=245
+		width=10
+		height=45
+	}
+	"basic attribute" {
+		clr=43
+	}
+	"dynamic attribute" {
+		chan="BL24I-OP-MTAB-01:Z.RBV"
+	}
+}
+rectangle {
+	object {
+		x=674
+		y=267
+		width=9
+		height=23
+	}
+	"basic attribute" {
+		clr=62
+	}
+	"dynamic attribute" {
+		chan="BL24I-OP-MTAB-01:Z.RBV"
+	}
+}
+composite {
+	object {
+		x=392
+		y=303
+		width=46
+		height=34
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=392
+				y=325
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VMFM-01:X.MSTA"
+				clr=27
+				bclr=46
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=392
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VMFM-01:Y.MSTA"
+				clr=27
+				bclr=46
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=392
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VMFM-01:PITCH.MSTA"
+				clr=27
+				bclr=46
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=403
+		y=256
+		width=34
+		height=34
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=403
+				y=278
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VMFM-01:X.RBV"
+				clr=23
+				bclr=46
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=403
+				y=267
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VMFM-01:Y.RBV"
+				clr=23
+				bclr=46
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=403
+				y=256
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VMFM-01:PITCH.RBV"
+				clr=23
+				bclr=46
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=448
+		y=256
+		width=34
+		height=34
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=448
+				y=256
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HMFM-01:PITCH.RBV"
+				clr=14
+				bclr=42
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=448
+				y=267
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HMFM-01:X.RBV"
+				clr=14
+				bclr=42
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=448
+				y=278
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HMFM-01:Y.RBV"
+				clr=14
+				bclr=42
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=235
+		y=303
+		width=46
+		height=56
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=235
+				y=347
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:X.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=235
+				y=336
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:Y.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=235
+				y=325
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:YAW.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=235
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:ROLL.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=235
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:PITCH.MSTA"
+				clr=58
+				bclr=46
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=190
+		y=303
+		width=46
+		height=56
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=190
+				y=347
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:X.MSTA"
+				clr=25
+				bclr=42
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=190
+				y=336
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:X.MSTA"
+				clr=25
+				bclr=42
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=190
+				y=325
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:YAW.MSTA"
+				clr=25
+				bclr=42
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=190
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:ROLL.MSTA"
+				clr=25
+				bclr=42
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=190
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:PITCH.MSTA"
+				clr=25
+				bclr=42
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+rectangle {
+	object {
+		x=80
+		y=245
+		width=10
+		height=45
+	}
+	"basic attribute" {
+		clr=3
+	}
+}
+composite {
+	object {
+		x=89
+		y=303
+		width=46
+		height=45
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=89
+				y=336
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-DCM-01:PITCH2.MSTA"
+				clr=58
+				bclr=37
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=89
+				y=325
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-DCM-01:ROLL1.MSTA"
+				clr=58
+				bclr=37
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=89
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-DCM-01:T2.MSTA"
+				clr=58
+				bclr=37
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=89
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-DCM-01:ENERGY.MSTA"
+				clr=58
+				bclr=37
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+"text update" {
+	object {
+		x=102
+		y=245
+		width=33
+		height=12
+	}
+	monitor {
+		chan="BL24I-OP-DCM-01:ENERGY.RBV"
+		clr=24
+		bclr=37
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=102
+		y=256
+		width=33
+		height=12
+	}
+	monitor {
+		chan="BL24I-OP-DCM-01:T2.RBV"
+		clr=24
+		bclr=37
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=102
+		y=267
+		width=33
+		height=12
+	}
+	monitor {
+		chan="BL24I-OP-DCM-01:ROLL1.RBV"
+		clr=24
+		bclr=37
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=102
+		y=278
+		width=33
+		height=12
+	}
+	monitor {
+		chan="BL24I-OP-DCM-01:PITCH2.RBV"
+		clr=24
+		bclr=37
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+rectangle {
+	object {
+		x=22
+		y=245
+		width=12
+		height=45
+	}
+	"basic attribute" {
+		clr=39
+		width=3
+	}
+}
+composite {
+	object {
+		x=437
+		y=303
+		width=46
+		height=34
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=437
+				y=325
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HMFM-01:Y.MSTA"
+				clr=25
+				bclr=42
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=437
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HMFM-01:X.MSTA"
+				clr=25
+				bclr=42
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=437
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HMFM-01:PITCH.MSTA"
+				clr=25
+				bclr=42
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+rectangle {
+	object {
+		x=19
+		y=301
+		width=126
+		height=2
+	}
+	"basic attribute" {
+		clr=0
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<2&&B<2"
+		chan="FE24I-PS-SHTR-01:STA"
+		chanB="FE24I-PS-SHTR-02:STA"
+	}
+}
+rectangle {
+	object {
+		x=23
+		y=301
+		width=772
+		height=2
+	}
+	"basic attribute" {
+		clr=0
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<2&&B<2&&C<2&&D=1"
+		chan="FE24I-PS-SHTR-01:STA"
+		chanB="FE24I-PS-SHTR-02:STA"
+		chanC="BL24I-PS-SHTR-01:STA"
+		chanD="BL24I-EA-SHTR-01:SHUTTER_STATE"
+	}
+}
+composite {
+	object {
+		x=816
+		y=107
+		width=37
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=843
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:ROTY.MSTA"
+				clr=58
+				bclr=45
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=834
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:Z.MSTA"
+				clr=58
+				bclr=45
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=825
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:Y.MSTA"
+				clr=58
+				bclr=45
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=816
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-MO-BS-01:X.MSTA"
+				clr=58
+				bclr=45
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=644
+		y=107
+		width=19
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=644
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-EA-DET-01:Z.MSTA"
+				clr=58
+				bclr=51
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=653
+				y=107
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-EA-DET-01:Y.MSTA"
+				clr=58
+				bclr=51
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+rectangle {
+	object {
+		x=145
+		y=301
+		width=438
+		height=2
+	}
+	"basic attribute" {
+		clr=0
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<2&&B<2&&C<2"
+		chan="FE24I-PS-SHTR-01:STA"
+		chanB="FE24I-PS-SHTR-02:STA"
+		chanC="BL24I-PS-SHTR-01:STA"
+	}
+}
+rectangle {
+	object {
+		x=0
+		y=0
+		width=835
+		height=2
+	}
+	"basic attribute" {
+		clr=57
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<2&&B<2&&C<2&&D=1"
+		chan="FE24I-PS-SHTR-01:STA"
+		chanB="FE24I-PS-SHTR-02:STA"
+		chanC="BL24I-PS-SHTR-01:STA"
+		chanD="BL24I-EA-SHTR-01:SHUTTER_STATE"
+	}
+}
+rectangle {
+	object {
+		x=0
+		y=702
+		width=835
+		height=2
+	}
+	"basic attribute" {
+		clr=57
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<2&&B<2&&C<2&&D=1"
+		chan="FE24I-PS-SHTR-01:STA"
+		chanB="FE24I-PS-SHTR-02:STA"
+		chanC="BL24I-PS-SHTR-01:STA"
+		chanD="BL24I-EA-SHTR-01:SHUTTER_STATE"
+	}
+}
+byte {
+	object {
+		x=22
+		y=303
+		width=12
+		height=46
+	}
+	monitor {
+		chan="SR24I-MO-SERVC-01:CURRGAPD"
+		clr=39
+		bclr=39
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+rectangle {
+	object {
+		x=755
+		y=508
+		width=25
+		height=1
+	}
+	"basic attribute" {
+		clr=46
+		width=3
+	}
+}
+rectangle {
+	object {
+		x=730
+		y=521
+		width=50
+		height=1
+	}
+	"basic attribute" {
+		clr=34
+		width=3
+	}
+}
+"text update" {
+	object {
+		x=22
+		y=233
+		width=25
+		height=12
+	}
+	monitor {
+		chan="SR24I-MO-SERVC-01:CURRGAPD"
+		clr=14
+		bclr=39
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+rectangle {
+	object {
+		x=643
+		y=237
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A=0"
+		chan="BL24I-MO-CSTRM-01:P1701:RBV"
+	}
+}
+rectangle {
+	object {
+		x=19
+		y=290
+		width=126
+		height=2
+	}
+	"basic attribute" {
+		clr=0
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<2&&B<2"
+		chan="FE24I-PS-SHTR-01:STA"
+		chanB="FE24I-PS-SHTR-02:STA"
+	}
+}
+rectangle {
+	object {
+		x=145
+		y=290
+		width=438
+		height=2
+	}
+	"basic attribute" {
+		clr=0
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<2&&B<2&&C<2"
+		chan="FE24I-PS-SHTR-01:STA"
+		chanB="FE24I-PS-SHTR-02:STA"
+		chanC="BL24I-PS-SHTR-01:STA"
+	}
+}
+byte {
+	object {
+		x=729
+		y=303
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-HGON-01:OMEGA.MSTA"
+		clr=58
+		bclr=36
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=729
+		y=336
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-TTAB-01:X.MSTA"
+		clr=38
+		bclr=35
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=729
+		y=347
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-TTAB-01:Y.MSTA"
+		clr=38
+		bclr=35
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=729
+		y=358
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-TTAB-01:Z.MSTA"
+		clr=38
+		bclr=35
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=729
+		y=314
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-HGON-01:TRAYYS.MSTA"
+		clr=38
+		bclr=60
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=729
+		y=325
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-HGON-01:TRAYZS.MSTA"
+		clr=38
+		bclr=60
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+composite {
+	object {
+		x=830
+		y=303
+		width=23
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=841
+				y=303
+				width=12
+				height=46
+			}
+			monitor {
+				chan="BL24I-EA-DET-01:Y.MSTA"
+				clr=58
+				bclr=51
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=830
+				y=303
+				width=12
+				height=46
+			}
+			monitor {
+				chan="BL24I-EA-DET-01:Z.MSTA"
+				clr=58
+				bclr=51
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+rectangle {
+	object {
+		x=23
+		y=289
+		width=772
+		height=2
+	}
+	"basic attribute" {
+		clr=0
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<2&&B<2&&C<2&&D=1"
+		chan="FE24I-PS-SHTR-01:STA"
+		chanB="FE24I-PS-SHTR-02:STA"
+		chanC="BL24I-PS-SHTR-01:STA"
+		chanD="BL24I-EA-SHTR-01:SHUTTER_STATE"
+	}
+}
+"text update" {
+	object {
+		x=60
+		y=231
+		width=20
+		height=14
+	}
+	monitor {
+		chan="BL24I-OP-DCM-01:CC01:PV_LT19"
+		clr=50
+		bclr=58
+	}
+	align="horiz. centered"
+	limits {
+		hoprSrc="default"
+		hoprDefault=100
+		precSrc="default"
+	}
+}
+"strip chart" {
+	object {
+		x=41
+		y=407
+		width=720
+		height=240
+	}
+	plotcom {
+		clr=50
+		bclr=57
+	}
+	period=240.000000
+	pen[0] {
+		chan="BL24I-EA-ZEBRA-01:PC_ARM_OUT"
+		clr=50
+		limits {
+			loprSrc="default"
+			loprDefault=-3.2
+			hoprSrc="default"
+			hoprDefault=1.2
+		}
+	}
+	pen[1] {
+		chan="BL24I-EA-ZEBRA-01:PC_GATE_OUT"
+		clr=63
+		limits {
+			loprSrc="default"
+			loprDefault=-2.1
+			hoprSrc="default"
+			hoprDefault=2.2
+		}
+	}
+	pen[2] {
+		chan="BL24I-EA-SHTR-01:SHUTTER_STATE"
+		clr=43
+		limits {
+			loprSrc="default"
+			loprDefault=-8
+			hoprSrc="default"
+			hoprDefault=2
+		}
+	}
+	pen[3] {
+		chan="BL24I-EA-ZEBRA-01:M2:RBV"
+		clr=36
+		limits {
+			loprSrc="default"
+			loprDefault=-720
+			hoprSrc="default"
+			hoprDefault=720
+		}
+	}
+	pen[4] {
+		chan="BL24I-DI-QBPM-01:INTEN"
+		clr=46
+		limits {
+			loprSrc="default"
+			hoprSrc="default"
+			hoprDefault=5.65
+		}
+	}
+	pen[5] {
+		chan="BL24I-DI-QBPM-03:INTEN"
+		clr=0
+		limits {
+			loprSrc="default"
+			hoprSrc="default"
+			hoprDefault=4.38
+		}
+	}
+	pen[6] {
+		chan="BL24I-EA-ZEBRA-01:PC_DIR"
+		clr=14
+		limits {
+			loprSrc="default"
+			loprDefault=1.5
+			hoprSrc="default"
+			hoprDefault=-1.3
+		}
+	}
+	pen[7] {
+		chan="BL24I-DI-QBPM-02:INTEN"
+		clr=45
+		limits {
+			loprSrc="default"
+			hoprSrc="default"
+			hoprDefault=10
+		}
+	}
+}
+composite {
+	object {
+		x=521
+		y=60
+		width=46
+		height=46
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=521
+				y=60
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:Y1.MSTA"
+				clr=58
+				bclr=42
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=530
+				y=60
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:Y2.MSTA"
+				clr=58
+				bclr=42
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=539
+				y=60
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:Y3.MSTA"
+				clr=58
+				bclr=42
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=548
+				y=60
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:X1.MSTA"
+				clr=58
+				bclr=42
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=557
+				y=60
+				width=10
+				height=46
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:X2.MSTA"
+				clr=58
+				bclr=42
+			}
+			clrmod="alarm"
+			direction="down"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+text {
+	object {
+		x=11
+		y=447
+		width=40
+		height=12
+	}
+	"basic attribute" {
+		clr=36
+	}
+	textix="Omega"
+}
+text {
+	object {
+		x=773
+		y=496
+		width=40
+		height=12
+	}
+	"basic attribute" {
+		clr=46
+	}
+	textix="1"
+}
+text {
+	object {
+		x=772
+		y=534
+		width=40
+		height=12
+	}
+	"basic attribute" {
+		clr=30
+	}
+	textix="3"
+}
+text {
+	object {
+		x=22
+		y=410
+		width=40
+		height=12
+	}
+	"basic attribute" {
+		clr=50
+	}
+	textix="Arm"
+}
+text {
+	object {
+		x=17
+		y=423
+		width=40
+		height=12
+	}
+	"basic attribute" {
+		clr=63
+	}
+	textix="Gate"
+}
+text {
+	object {
+		x=0
+		y=435
+		width=40
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="Shutter"
+}
+rectangle {
+	object {
+		x=754
+		y=546
+		width=25
+		height=1
+	}
+	"basic attribute" {
+		clr=30
+	}
+}
+"text update" {
+	object {
+		x=684
+		y=190
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-PTAB-01:X.RBV"
+		clr=0
+		bclr=35
+	}
+	clrmod="discrete"
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=684
+		y=201
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-PTAB-01:Y.RBV"
+		clr=0
+		bclr=35
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=684
+		y=212
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-PTAB-01:Z.RBV"
+		clr=0
+		bclr=35
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=684
+		y=222
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:PINXS.RBV"
+		clr=1
+		bclr=60
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=684
+		y=233
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:PINYH.RBV"
+		clr=1
+		bclr=60
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=684
+		y=244
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:PINZS.RBV"
+		clr=1
+		bclr=60
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+byte {
+	object {
+		x=684
+		y=391
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-PTAB-01:Z.MSTA"
+		clr=38
+		bclr=35
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=684
+		y=380
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-PTAB-01:Y.MSTA"
+		clr=38
+		bclr=35
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=684
+		y=369
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-PTAB-01:X.MSTA"
+		clr=38
+		bclr=35
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=684
+		y=358
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:PINZ.MSTA"
+		clr=38
+		bclr=60
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=684
+		y=347
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:PINYH.MSTA"
+		clr=38
+		bclr=60
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=684
+		y=336
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-VGON-01:PINX.MSTA"
+		clr=38
+		bclr=60
+	}
+	clrmod="alarm"
+	sbit=0
+	ebit=14
+}
+composite {
+	object {
+		x=684
+		y=303
+		width=46
+		height=34
+	}
+	"composite name"=""
+	children {
+		composite {
+			object {
+				x=684
+				y=303
+				width=46
+				height=12
+			}
+			"composite name"=""
+			children {
+				byte {
+					object {
+						x=684
+						y=303
+						width=46
+						height=12
+					}
+					monitor {
+						chan="BL24I-MO-VGON-01:OMEGA.MSTA"
+						clr=58
+						bclr=36
+					}
+					clrmod="alarm"
+					sbit=0
+					ebit=14
+				}
+			}
+		}
+		byte {
+			object {
+				x=684
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-VGON-01:KAPPA.MSTA"
+				clr=58
+				bclr=36
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=684
+				y=325
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-VGON-01:PHI.MSTA"
+				clr=58
+				bclr=36
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+"text update" {
+	object {
+		x=729
+		y=267
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-HGON-01:TRAYZ.RBV"
+		clr=1
+		bclr=60
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=729
+		y=256
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-HGON-01:TRAYY.RBV"
+		clr=1
+		bclr=60
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+composite {
+	object {
+		x=831
+		y=266
+		width=24
+		height=24
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=831
+				y=266
+				width=23
+				height=12
+			}
+			monitor {
+				chan="BL24I-EA-DET-01:Y.RBV"
+				clr=23
+				bclr=51
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+			}
+		}
+		"text update" {
+			object {
+				x=832
+				y=278
+				width=23
+				height=12
+			}
+			monitor {
+				chan="BL24I-EA-DET-01:Z.RBV"
+				clr=23
+				bclr=51
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+			}
+		}
+	}
+}
+byte {
+	object {
+		x=134
+		y=303
+		width=12
+		height=46
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-01:FOIL.MSTA"
+		clr=0
+		bclr=46
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+rectangle {
+	object {
+		x=135
+		y=245
+		width=10
+		height=45
+	}
+	"basic attribute" {
+		clr=46
+	}
+}
+"text update" {
+	object {
+		x=135
+		y=233
+		width=25
+		height=12
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-01:INTEN"
+		clr=48
+		bclr=46
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+byte {
+	object {
+		x=325
+		y=303
+		width=12
+		height=46
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-02:FOIL.MSTA"
+		clr=46
+		bclr=45
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+rectangle {
+	object {
+		x=326
+		y=245
+		width=10
+		height=45
+	}
+	"basic attribute" {
+		clr=45
+	}
+}
+byte {
+	object {
+		x=381
+		y=303
+		width=12
+		height=46
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-03:FOIL.MSTA"
+		clr=46
+		bclr=0
+	}
+	clrmod="alarm"
+	direction="down"
+	sbit=0
+	ebit=14
+}
+rectangle {
+	object {
+		x=381
+		y=245
+		width=10
+		height=45
+	}
+	"basic attribute" {
+		clr=0
+	}
+}
+"text update" {
+	object {
+		x=366
+		y=233
+		width=25
+		height=12
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-03:INTEN"
+		clr=34
+		bclr=30
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+composite {
+	object {
+		x=532
+		y=246
+		width=46
+		height=23
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=532
+				y=246
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-CTAB-01:X.RBV"
+				clr=29
+				bclr=46
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=532
+				y=257
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-MO-CTAB-01:Y.RBV"
+				clr=29
+				bclr=46
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=33
+		y=303
+		width=46
+		height=45
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=33
+				y=336
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-01:Y:SIZE.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=33
+				y=325
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-01:Y:CENTER.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=33
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-01:X:SIZE.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=33
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-01:X:CENTER.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=157
+		y=245
+		width=33
+		height=45
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=157
+				y=245
+				width=33
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:X:CENTER.RBV"
+				clr=0
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=157
+				y=256
+				width=33
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:X:SIZE.RBV"
+				clr=0
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=157
+				y=267
+				width=33
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:Y:CENTER.RBV"
+				clr=0
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=157
+				y=278
+				width=33
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:Y:SIZE.RBV"
+				clr=0
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=145
+		y=303
+		width=46
+		height=45
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=145
+				y=336
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:Y:SIZE.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=145
+				y=325
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:Y:CENTER.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=145
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:X:SIZE.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=145
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-02:X:CENTER.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=336
+		y=303
+		width=46
+		height=45
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=336
+				y=336
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:Y:SIZE.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=336
+				y=325
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:Y:CENTER.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=336
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:X:SIZE.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=336
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:X:CENTER.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=348
+		y=245
+		width=34
+		height=45
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=348
+				y=278
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:Y:SIZE.RBV"
+				clr=0
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=348
+				y=267
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:Y:CENTER.RBV"
+				clr=0
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=348
+				y=256
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:X:SIZE.RBV"
+				clr=0
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=348
+				y=245
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-04:X:CENTER.RBV"
+				clr=0
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=280
+		y=303
+		width=46
+		height=45
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=280
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:X:CENTER.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=280
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:X:SIZE.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=280
+				y=325
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:Y:CENTER.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=280
+				y=336
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:Y:SIZE.MSTA"
+				clr=58
+				bclr=61
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=293
+		y=245
+		width=33
+		height=45
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=293
+				y=278
+				width=33
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:Y:SIZE.RBV"
+				clr=15
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=293
+				y=267
+				width=33
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:Y:CENTER.RBV"
+				clr=15
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=293
+				y=256
+				width=33
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:X:SIZE.RBV"
+				clr=15
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=293
+				y=245
+				width=33
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-SLITS-03:X:CENTER.RBV"
+				clr=15
+				bclr=61
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+	}
+}
+"text update" {
+	object {
+		x=628
+		y=278
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-AL-APTR-02:Y.RBV"
+		clr=14
+		bclr=45
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=628
+		y=267
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-AL-APTR-02:X.RBV"
+		clr=14
+		bclr=45
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=777
+		y=233
+		width=25
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-BL-01:P:UPD.D"
+		clr=14
+		bclr=43
+	}
+	limits {
+		precSrc="default"
+	}
+}
+"text update" {
+	object {
+		x=777
+		y=222
+		width=25
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-BL-01:MP:SELECT"
+		clr=34
+		bclr=43
+	}
+	limits {
+		precSrc="default"
+	}
+}
+text {
+	object {
+		x=22
+		y=290
+		width=12
+		height=17
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="IG"
+}
+text {
+	object {
+		x=46
+		y=290
+		width=20
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="s1"
+}
+text {
+	object {
+		x=77
+		y=290
+		width=20
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="FL1"
+}
+text {
+	object {
+		x=102
+		y=290
+		width=20
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="DCM"
+}
+text {
+	object {
+		x=138
+		y=290
+		width=20
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="1"
+}
+text {
+	object {
+		x=158
+		y=290
+		width=35
+		height=17
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="S2"
+}
+text {
+	object {
+		x=203
+		y=290
+		width=35
+		height=17
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="HPFM"
+}
+text {
+	object {
+		x=246
+		y=290
+		width=35
+		height=17
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="VPFM"
+}
+text {
+	object {
+		x=292
+		y=290
+		width=30
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="S3"
+}
+text {
+	object {
+		x=329
+		y=290
+		width=20
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="2"
+}
+text {
+	object {
+		x=347
+		y=290
+		width=30
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="S4"
+}
+text {
+	object {
+		x=385
+		y=290
+		width=10
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="3"
+}
+text {
+	object {
+		x=402
+		y=290
+		width=35
+		height=17
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="VMFM"
+}
+text {
+	object {
+		x=450
+		y=290
+		width=35
+		height=17
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="HMFM"
+}
+text {
+	object {
+		x=497
+		y=290
+		width=20
+		height=17
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="ATT"
+}
+text {
+	object {
+		x=602
+		y=290
+		width=30
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="AP"
+}
+text {
+	object {
+		x=643
+		y=290
+		width=30
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="SG"
+}
+text {
+	object {
+		x=698
+		y=290
+		width=35
+		height=17
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="PIN"
+}
+text {
+	object {
+		x=675
+		y=290
+		width=35
+		height=17
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="N2"
+}
+text {
+	object {
+		x=740
+		y=290
+		width=35
+		height=17
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="TRAY"
+}
+text {
+	object {
+		x=776
+		y=290
+		width=10
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="BL"
+}
+text {
+	object {
+		x=796
+		y=290
+		width=20
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="ABSB"
+}
+text {
+	object {
+		x=834
+		y=290
+		width=30
+		height=12
+	}
+	"basic attribute" {
+		clr=43
+	}
+	textix="DET"
+}
+text {
+	object {
+		x=17
+		y=461
+		width=40
+		height=12
+	}
+	"basic attribute" {
+		clr=46
+	}
+	textix="BPMs"
+}
+"text update" {
+	object {
+		x=46
+		y=279
+		width=34
+		height=12
+	}
+	monitor {
+		chan="BL24I-AL-SLITS-01:Y:SIZE.RBV"
+		clr=29
+		bclr=61
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=46
+		y=268
+		width=34
+		height=12
+	}
+	monitor {
+		chan="BL24I-AL-SLITS-01:Y:CENTER.RBV"
+		clr=29
+		bclr=61
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=46
+		y=257
+		width=34
+		height=12
+	}
+	monitor {
+		chan="BL24I-AL-SLITS-01:X:SIZE.RBV"
+		clr=29
+		bclr=61
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=46
+		y=245
+		width=34
+		height=12
+	}
+	monitor {
+		chan="BL24I-AL-SLITS-01:X:CENTER.RBV"
+		clr=29
+		bclr=61
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+rectangle {
+	object {
+		x=34
+		y=245
+		width=12
+		height=46
+	}
+	"basic attribute" {
+		clr=61
+	}
+}
+composite {
+	object {
+		x=36
+		y=245
+		width=12
+		height=46
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=36
+				y=245
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="X"
+		}
+		text {
+			object {
+				x=36
+				y=256
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="S"
+		}
+		text {
+			object {
+				x=36
+				y=267
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Y"
+		}
+		text {
+			object {
+				x=36
+				y=279
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="S"
+		}
+	}
+}
+composite {
+	object {
+		x=145
+		y=245
+		width=13
+		height=45
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=145
+				y=245
+				width=12
+				height=45
+			}
+			"basic attribute" {
+				clr=61
+			}
+		}
+		text {
+			object {
+				x=146
+				y=245
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="X"
+		}
+		text {
+			object {
+				x=146
+				y=256
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="S"
+		}
+		text {
+			object {
+				x=146
+				y=267
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Y"
+		}
+		text {
+			object {
+				x=146
+				y=278
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="S"
+		}
+	}
+}
+composite {
+	object {
+		x=90
+		y=244
+		width=13
+		height=46
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=90
+				y=245
+				width=12
+				height=45
+			}
+			"basic attribute" {
+				clr=37
+			}
+		}
+		text {
+			object {
+				x=91
+				y=244
+				width=12
+				height=11
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="E"
+		}
+		text {
+			object {
+				x=91
+				y=255
+				width=12
+				height=11
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="T"
+		}
+		text {
+			object {
+				x=91
+				y=266
+				width=12
+				height=11
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="R"
+		}
+		text {
+			object {
+				x=91
+				y=278
+				width=12
+				height=11
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="P"
+		}
+	}
+}
+composite {
+	object {
+		x=202
+		y=234
+		width=34
+		height=56
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=202
+				y=278
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:X.RBV"
+				clr=14
+				bclr=42
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=202
+				y=267
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:Y.RBV"
+				clr=14
+				bclr=42
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=202
+				y=256
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:YAW.RBV"
+				clr=14
+				bclr=42
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=202
+				y=245
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:ROLL.RBV"
+				clr=14
+				bclr=42
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=202
+				y=234
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-HPFM-01:PITCH.RBV"
+				clr=14
+				bclr=42
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=190
+		y=233
+		width=13
+		height=57
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=190
+				y=234
+				width=12
+				height=56
+			}
+			"basic attribute" {
+				clr=42
+			}
+		}
+		text {
+			object {
+				x=191
+				y=233
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="P"
+		}
+		text {
+			object {
+				x=191
+				y=244
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="R"
+		}
+		text {
+			object {
+				x=191
+				y=256
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="W"
+		}
+		text {
+			object {
+				x=191
+				y=267
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="S"
+		}
+		text {
+			object {
+				x=191
+				y=278
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="X"
+		}
+	}
+}
+composite {
+	object {
+		x=247
+		y=234
+		width=34
+		height=56
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=247
+				y=234
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:PITCH.RBV"
+				clr=23
+				bclr=46
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=247
+				y=245
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:ROLL.RBV"
+				clr=23
+				bclr=46
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=247
+				y=256
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:YAW.RBV"
+				clr=23
+				bclr=46
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=247
+				y=267
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:Y.RBV"
+				clr=23
+				bclr=46
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+		"text update" {
+			object {
+				x=247
+				y=278
+				width=34
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-VPFM-01:X.RBV"
+				clr=23
+				bclr=46
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+				precDefault=2
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=236
+		y=233
+		width=13
+		height=57
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=236
+				y=234
+				width=12
+				height=56
+			}
+			"basic attribute" {
+				clr=46
+			}
+		}
+		text {
+			object {
+				x=237
+				y=233
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="P"
+		}
+		text {
+			object {
+				x=237
+				y=244
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="R"
+		}
+		text {
+			object {
+				x=237
+				y=256
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="W"
+		}
+		text {
+			object {
+				x=237
+				y=267
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Y"
+		}
+		text {
+			object {
+				x=237
+				y=278
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="S"
+		}
+	}
+}
+composite {
+	object {
+		x=583
+		y=303
+		width=46
+		height=23
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=583
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-APTR-01:X.MSTA"
+				clr=58
+				bclr=47
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=583
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-APTR-01:Y.MSTA"
+				clr=58
+				bclr=47
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=628
+		y=303
+		width=46
+		height=23
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=628
+				y=314
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-APTR-02:Y.MSTA"
+				clr=22
+				bclr=45
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=628
+				y=303
+				width=46
+				height=12
+			}
+			monitor {
+				chan="BL24I-AL-APTR-02:X.MSTA"
+				clr=22
+				bclr=45
+			}
+			clrmod="alarm"
+			sbit=0
+			ebit=14
+		}
+	}
+}
+composite {
+	object {
+		x=281
+		y=244
+		width=13
+		height=46
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=281
+				y=245
+				width=12
+				height=45
+			}
+			"basic attribute" {
+				clr=61
+			}
+		}
+		text {
+			object {
+				x=282
+				y=244
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="X"
+		}
+		text {
+			object {
+				x=282
+				y=255
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="S"
+		}
+		text {
+			object {
+				x=282
+				y=266
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Y"
+		}
+		text {
+			object {
+				x=282
+				y=278
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="S"
+		}
+	}
+}
+composite {
+	object {
+		x=336
+		y=244
+		width=13
+		height=46
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=336
+				y=245
+				width=12
+				height=45
+			}
+			"basic attribute" {
+				clr=61
+			}
+		}
+		text {
+			object {
+				x=337
+				y=244
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="X"
+		}
+		text {
+			object {
+				x=337
+				y=255
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="S"
+		}
+		text {
+			object {
+				x=337
+				y=266
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Y"
+		}
+		text {
+			object {
+				x=337
+				y=278
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="S"
+		}
+	}
+}
+composite {
+	object {
+		x=391
+		y=255
+		width=13
+		height=35
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=391
+				y=256
+				width=12
+				height=34
+			}
+			"basic attribute" {
+				clr=46
+			}
+		}
+		text {
+			object {
+				x=392
+				y=255
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="P"
+		}
+		text {
+			object {
+				x=392
+				y=267
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Y"
+		}
+		text {
+			object {
+				x=392
+				y=278
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="S"
+		}
+	}
+}
+composite {
+	object {
+		x=437
+		y=255
+		width=13
+		height=35
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=437
+				y=256
+				width=12
+				height=34
+			}
+			"basic attribute" {
+				clr=42
+			}
+		}
+		text {
+			object {
+				x=438
+				y=255
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="P"
+		}
+		text {
+			object {
+				x=438
+				y=267
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="X"
+		}
+		text {
+			object {
+				x=438
+				y=278
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="S"
+		}
+	}
+}
+composite {
+	object {
+		x=413
+		y=244
+		width=16
+		height=12
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=417
+				y=244
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=51
+			}
+		}
+		text {
+			object {
+				x=413
+				y=244
+				width=12
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="Z"
+			align="horiz. right"
+		}
+	}
+}
+composite {
+	object {
+		x=495
+		y=267
+		width=32
+		height=23
+	}
+	"composite name"=""
+	children {
+		"text update" {
+			object {
+				x=495
+				y=267
+				width=32
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-ATTN-01:P1:UPD.D"
+				clr=14
+				bclr=45
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+			}
+		}
+		"text update" {
+			object {
+				x=495
+				y=278
+				width=32
+				height=12
+			}
+			monitor {
+				chan="BL24I-OP-ATTN-01:P2:UPD.D"
+				clr=14
+				bclr=45
+			}
+			align="horiz. right"
+			limits {
+				precSrc="default"
+			}
+		}
+	}
+}
+"text update" {
+	object {
+		x=489
+		y=255
+		width=30
+		height=12
+	}
+	monitor {
+		chan="BL24I-OP-ATTN-01:MATCH"
+		clr=14
+		bclr=45
+	}
+	align="horiz. centered"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+rectangle {
+	object {
+		x=482
+		y=267
+		width=13
+		height=23
+	}
+	"basic attribute" {
+		clr=45
+	}
+}
+text {
+	object {
+		x=481
+		y=266
+		width=8
+		height=10
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="1"
+	align="horiz. right"
+}
+text {
+	object {
+		x=481
+		y=278
+		width=8
+		height=10
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="2"
+	align="horiz. right"
+}
+rectangle {
+	object {
+		x=22
+		y=227
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>5.035||A<5.025"
+		chan="SR24I-MO-SERVC-01:CURRGAPD"
+	}
+}
+rectangle {
+	object {
+		x=100
+		y=227
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>12.81||A<12.79"
+		chan="BL24I-OP-DCM-01:ENERGY.RBV"
+	}
+}
+rectangle {
+	object {
+		x=673
+		y=440
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=44
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<2&&B<2&&C<2&&D=1"
+		chan="FE24I-PS-SHTR-01:STA"
+		chanB="FE24I-PS-SHTR-02:STA"
+		chanC="BL24I-PS-SHTR-01:STA"
+		chanD="BL24I-EA-SHTR-01:SHUTTER_STATE"
+	}
+}
+rectangle {
+	object {
+		x=0
+		y=526
+		width=780
+		height=1
+	}
+	"basic attribute" {
+		clr=62
+		width=3
+	}
+}
+rectangle {
+	object {
+		x=510
+		y=249
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=40
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<0.99"
+		chan="BL24I-OP-ATTN-01:MATCH"
+	}
+}
+rectangle {
+	object {
+		x=503
+		y=249
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=47
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<0.10"
+		chan="BL24I-OP-ATTN-01:MATCH"
+	}
+}
+rectangle {
+	object {
+		x=496
+		y=249
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=46
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<0.01"
+		chan="BL24I-OP-ATTN-01:MATCH"
+	}
+}
+rectangle {
+	object {
+		x=489
+		y=249
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<0.001"
+		chan="BL24I-OP-ATTN-01:MATCH"
+	}
+}
+rectangle {
+	object {
+		x=135
+		y=227
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>3.6||A<3.0"
+		chan="BL24I-DI-QBPM-01:INTEN"
+	}
+}
+rectangle {
+	object {
+		x=61
+		y=225
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<35||A>80"
+		chan="BL24I-OP-DCM-01:CC01:PV_LT19"
+	}
+}
+rectangle {
+	object {
+		x=489
+		y=190
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<0.001"
+		chan="BL24I-OP-ATTN-01:MATCH"
+	}
+}
+rectangle {
+	object {
+		x=489
+		y=194
+		width=1
+		height=60
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<0.001"
+		chan="BL24I-OP-ATTN-01:MATCH"
+	}
+}
+rectangle {
+	object {
+		x=22
+		y=190
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>5.035||A<5.025"
+		chan="SR24I-MO-SERVC-01:CURRGAPD"
+	}
+}
+rectangle {
+	object {
+		x=22
+		y=196
+		width=1
+		height=34
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>5.035||A<5.025"
+		chan="SR24I-MO-SERVC-01:CURRGAPD"
+	}
+}
+rectangle {
+	object {
+		x=100
+		y=190
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>12.81||A<12.79"
+		chan="BL24I-OP-DCM-01:ENERGY.RBV"
+	}
+}
+rectangle {
+	object {
+		x=100
+		y=195
+		width=1
+		height=36
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>12.81||A<12.79"
+		chan="BL24I-OP-DCM-01:ENERGY.RBV"
+	}
+}
+rectangle {
+	object {
+		x=135
+		y=190
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>3.6||A<3.0"
+		chan="BL24I-DI-QBPM-01:INTEN"
+	}
+}
+rectangle {
+	object {
+		x=135
+		y=195
+		width=1
+		height=36
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>3.6||A<3.0"
+		chan="BL24I-DI-QBPM-01:INTEN"
+	}
+}
+rectangle {
+	object {
+		x=643
+		y=190
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A=0"
+		chan="BL24I-MO-CSTRM-01:P1701:RBV"
+	}
+}
+rectangle {
+	object {
+		x=643
+		y=196
+		width=1
+		height=47
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A=0"
+		chan="BL24I-MO-CSTRM-01:P1701:RBV"
+	}
+}
+"text update" {
+	object {
+		x=103
+		y=233
+		width=31
+		height=12
+	}
+	monitor {
+		chan="BL24I-OP-DCM-01:FPITCH.RBV"
+		clr=24
+		bclr=6
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+rectangle {
+	object {
+		x=90
+		y=233
+		width=13
+		height=12
+	}
+	"basic attribute" {
+		clr=6
+		width=9
+	}
+}
+text {
+	object {
+		x=92
+		y=233
+		width=13
+		height=12
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="FP"
+}
+"shell command" {
+	object {
+		x=835
+		y=0
+		width=20
+		height=20
+	}
+	command[0] {
+		label="."
+		name="synoptic"
+	}
+	clr=57
+	bclr=57
+}
+text {
+	object {
+		x=644
+		y=195
+		width=32
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A=0&&B<-280"
+		chan="BL24I-MO-CSTRM-01:P1703.RBV"
+		chanB="BL24I-MO-CSTRM-01:TRANS.RBV"
+	}
+	textix="TRAY?"
+}
+rectangle {
+	object {
+		x=650
+		y=210
+		width=22
+		height=12
+	}
+	"basic attribute" {
+		clr=62
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>0"
+		chan="BL24I-MO-CSTRM-01:P1703:RBV"
+	}
+}
+rectangle {
+	object {
+		x=61
+		y=190
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<35||A>80"
+		chan="BL24I-OP-DCM-01:CC01:PV_LT19"
+	}
+}
+rectangle {
+	object {
+		x=61
+		y=196
+		width=1
+		height=36
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<35||A>80"
+		chan="BL24I-OP-DCM-01:CC01:PV_LT19"
+	}
+}
+composite {
+	object {
+		x=366
+		y=190
+		width=6
+		height=43
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=366
+				y=190
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=366
+				y=196
+				width=1
+				height=36
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=366
+				y=227
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<1.3"
+		chan="BL24I-DI-QBPM-03:INTEN"
+	}
+}
+composite {
+	object {
+		x=410
+		y=377
+		width=6
+		height=26
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=410
+				y=397
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=410
+				y=377
+				width=1
+				height=20
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=410
+				y=377
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="BL24I-OP-PSU-02:GROUP0:CH7:STATUS"
+	}
+}
+composite {
+	object {
+		x=458
+		y=377
+		width=6
+		height=26
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=458
+				y=397
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=458
+				y=377
+				width=1
+				height=20
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=458
+				y=377
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="BL24I-OP-PSU-02:GROUP1:CH7:STATUS"
+	}
+}
+composite {
+	object {
+		x=802
+		y=190
+		width=6
+		height=55
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=802
+				y=190
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+			"dynamic attribute" {
+				vis="calc"
+				calc="A<3.7||A>3.9||B<-0.1||B>0.1"
+				chan="BL24I-AL-SLITS-04:X:CENTER.RBV"
+				chanB="BL24I-AL-SLITS-04:X:SIZE.RBV"
+			}
+		}
+		rectangle {
+			object {
+				x=802
+				y=196
+				width=1
+				height=46
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+			"dynamic attribute" {
+				vis="calc"
+				calc="A<3.7||A>3.9||B<-0.1||B>0.1"
+				chan="BL24I-AL-SLITS-04:X:CENTER.RBV"
+				chanB="BL24I-AL-SLITS-04:X:SIZE.RBV"
+			}
+		}
+		rectangle {
+			object {
+				x=802
+				y=239
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+			"dynamic attribute" {
+				vis="calc"
+				calc="A<3.7||A>3.9||B<-0.1||B>0.1"
+				chan="BL24I-AL-SLITS-04:X:CENTER.RBV"
+				chanB="BL24I-AL-SLITS-04:X:SIZE.RBV"
+			}
+		}
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<24.9"
+		chan="BL24I-MO-BS-01:P2:UPD.D"
+	}
+}
+rectangle {
+	object {
+		x=796
+		y=216
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=40
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>199"
+		chan="BL24I-MO-BL-01:P:UPD.D"
+	}
+}
+rectangle {
+	object {
+		x=789
+		y=216
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=47
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>250"
+		chan="BL24I-MO-BL-01:P:UPD.D"
+	}
+}
+rectangle {
+	object {
+		x=782
+		y=216
+		width=6
+		height=6
+	}
+	"basic attribute" {
+		clr=54
+		width=9
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>260"
+		chan="BL24I-MO-BL-01:P:UPD.D"
+	}
+}
+composite {
+	object {
+		x=809
+		y=190
+		width=6
+		height=55
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=809
+				y=190
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+			"dynamic attribute" {
+				vis="calc"
+				calc="A<3.7||A>3.9||B<-0.1||B>0.1"
+				chan="BL24I-AL-SLITS-04:X:CENTER.RBV"
+				chanB="BL24I-AL-SLITS-04:X:SIZE.RBV"
+			}
+		}
+		rectangle {
+			object {
+				x=809
+				y=196
+				width=1
+				height=46
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+			"dynamic attribute" {
+				vis="calc"
+				calc="A<3.7||A>3.9||B<-0.1||B>0.1"
+				chan="BL24I-AL-SLITS-04:X:CENTER.RBV"
+				chanB="BL24I-AL-SLITS-04:X:SIZE.RBV"
+			}
+		}
+		rectangle {
+			object {
+				x=809
+				y=239
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+			"dynamic attribute" {
+				vis="calc"
+				calc="A<3.7||A>3.9||B<-0.1||B>0.1"
+				chan="BL24I-AL-SLITS-04:X:CENTER.RBV"
+				chanB="BL24I-AL-SLITS-04:X:SIZE.RBV"
+			}
+		}
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>6.5"
+		chan="BL24I-MO-BS-01:ROTY.RBV"
+	}
+}
+"text update" {
+	object {
+		x=679
+		y=163
+		width=160
+		height=14
+	}
+	monitor {
+		chan="BL24I-EA-PILAT-01:cam1:FileName_RBV"
+		clr=44
+		bclr=57
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=379
+		y=163
+		width=300
+		height=14
+	}
+	monitor {
+		chan="BL24I-EA-PILAT-01:cam1:FilePath_RBV"
+		clr=44
+		bclr=57
+	}
+	align="horiz. right"
+	format="string"
+	limits {
+	}
+}
+composite {
+	object {
+		x=487
+		y=0
+		width=319
+		height=13
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=796
+				y=0
+				width=10
+				height=10
+			}
+			"basic attribute" {
+				clr=28
+			}
+			textix="11, 12"
+		}
+		text {
+			object {
+				x=683
+				y=0
+				width=62
+				height=12
+			}
+			"basic attribute" {
+				clr=28
+			}
+			textix="8, 9, 10"
+		}
+		text {
+			object {
+				x=622
+				y=0
+				width=12
+				height=13
+			}
+			"basic attribute" {
+				clr=28
+			}
+			textix="3"
+		}
+		text {
+			object {
+				x=546
+				y=0
+				width=10
+				height=13
+			}
+			"basic attribute" {
+				clr=28
+			}
+			textix="2"
+		}
+		text {
+			object {
+				x=487
+				y=0
+				width=10
+				height=13
+			}
+			"basic attribute" {
+				clr=28
+			}
+			textix="1"
+		}
+	}
+}
+"message button" {
+	object {
+		x=666
+		y=397
+		width=6
+		height=6
+	}
+	control {
+		chan="BL24I-EA-DET-02:TRANS"
+		clr=14
+		bclr=50
+	}
+	press_msg="OUT"
+}
+rectangle {
+	object {
+		x=26
+		y=375
+		width=820
+		height=20
+	}
+	"basic attribute" {
+		clr=38
+	}
+}
+composite {
+	object {
+		x=482
+		y=303
+		width=372
+		height=100
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=830
+				y=303
+				width=24
+				height=100
+			}
+			"basic attribute" {
+				clr=50
+			}
+		}
+		rectangle {
+			object {
+				x=672
+				y=323
+				width=158
+				height=80
+			}
+			"basic attribute" {
+				clr=49
+			}
+		}
+		rectangle {
+			object {
+				x=482
+				y=317
+				width=191
+				height=86
+			}
+			"basic attribute" {
+				clr=50
+			}
+		}
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A=0&&B=0&&C=0&&D=0"
+		chan="BL24I-PS-IOC-02:M02:LOP"
+		chanB="BL24I-PS-IOC-02:M03:LOP"
+		chanC="BL24I-PS-IOC-02:M12:LOP"
+		chanD="BL24I-PS-IOC-02:M11:LOP"
+	}
+}
+rectangle {
+	object {
+		x=34
+		y=343
+		width=111
+		height=60
+	}
+	"basic attribute" {
+		clr=50
+	}
+}
+rectangle {
+	object {
+		x=145
+		y=323
+		width=337
+		height=80
+	}
+	"basic attribute" {
+		clr=49
+	}
+}
+rectangle {
+	object {
+		x=0
+		y=304
+		width=35
+		height=99
+	}
+	"basic attribute" {
+		clr=49
+	}
+}
+"text update" {
+	object {
+		x=392
+		y=349
+		width=40
+		height=14
+	}
+	monitor {
+		chan="BL24I-OP-PSU-02:GROUP0:STATUS"
+		clr=0
+		bclr=11
+	}
+	align="horiz. centered"
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=442
+		y=349
+		width=40
+		height=14
+	}
+	monitor {
+		chan="BL24I-OP-PSU-02:GROUP1:STATUS"
+		clr=0
+		bclr=11
+	}
+	align="horiz. centered"
+	format="string"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=432
+		y=349
+		width=10
+		height=14
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="BL24I-OP-PSU-02:BUSY"
+	}
+}
+"text update" {
+	object {
+		x=442
+		y=363
+		width=40
+		height=14
+	}
+	monitor {
+		chan="BL24I-OP-PSU-02:GROUP1:CH15:STATUS"
+		clr=0
+		bclr=11
+	}
+	align="horiz. centered"
+	format="string"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=432
+		y=363
+		width=10
+		height=14
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A=0||B=0"
+		chan="BL24I-OP-PSU-02:GROUP1:CH15:STATUS"
+		chanB="BL24I-OP-PSU-02:GROUP0:CH5:STATUS"
+	}
+}
+"text update" {
+	object {
+		x=392
+		y=363
+		width=40
+		height=14
+	}
+	monitor {
+		chan="BL24I-OP-PSU-02:GROUP0:CH5:STATUS"
+		clr=0
+		bclr=11
+	}
+	align="horiz. centered"
+	format="string"
+	limits {
+	}
+}
+composite {
+	object {
+		x=392
+		y=377
+		width=90
+		height=26
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=392
+				y=378
+				width=1
+				height=19
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=392
+				y=397
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=392
+				y=377
+				width=90
+				height=1
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="BL24I-OP-PSU-02:BUSY"
+	}
+}
+composite {
+	object {
+		x=658
+		y=377
+		width=17
+		height=26
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=661
+				y=384
+				width=14
+				height=12
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="FL"
+		}
+		composite {
+			object {
+				x=658
+				y=377
+				width=6
+				height=26
+			}
+			"composite name"=""
+			children {
+				rectangle {
+					object {
+						x=658
+						y=397
+						width=6
+						height=6
+					}
+					"basic attribute" {
+						clr=38
+						width=9
+					}
+				}
+				rectangle {
+					object {
+						x=658
+						y=377
+						width=1
+						height=20
+					}
+					"basic attribute" {
+						clr=38
+						width=9
+					}
+				}
+				rectangle {
+					object {
+						x=658
+						y=377
+						width=6
+						height=6
+					}
+					"basic attribute" {
+						clr=38
+						width=9
+					}
+				}
+			}
+		}
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="BL24I-EA-DET-02:IN:LIMIT"
+	}
+}
+rectangle {
+	object {
+		x=360
+		y=181
+		width=2
+		height=8
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="BL24I-VA-IONP-01:ERR"
+	}
+}
+rectangle {
+	object {
+		x=363
+		y=181
+		width=2
+		height=8
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="BL24I-VA-IONP-02:ERR"
+	}
+}
+rectangle {
+	object {
+		x=366
+		y=181
+		width=2
+		height=8
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="BL24I-VA-IONP-03:ERR"
+	}
+}
+rectangle {
+	object {
+		x=369
+		y=181
+		width=2
+		height=8
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="BL24I-VA-IONP-04:ERR"
+	}
+}
+rectangle {
+	object {
+		x=372
+		y=181
+		width=2
+		height=8
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="BL24I-VA-IONP-05:ERR"
+	}
+}
+rectangle {
+	object {
+		x=375
+		y=181
+		width=2
+		height=8
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="BL24I-VA-IONP-06:ERR"
+	}
+}
+rectangle {
+	object {
+		x=378
+		y=181
+		width=2
+		height=8
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="BL24I-VA-IONP-07:ERR"
+	}
+}
+rectangle {
+	object {
+		x=381
+		y=181
+		width=2
+		height=8
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="BL24I-VA-IONP-08:ERR"
+	}
+}
+rectangle {
+	object {
+		x=384
+		y=181
+		width=2
+		height=8
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="BL24I-VA-IONP-09:ERR"
+	}
+}
+rectangle {
+	object {
+		x=387
+		y=181
+		width=2
+		height=8
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="BL24I-VA-IONP-10:ERR"
+	}
+}
+"text update" {
+	object {
+		x=310
+		y=233
+		width=25
+		height=12
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-02:INTEN"
+		clr=56
+		bclr=45
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"strip chart" {
+	object {
+		x=269
+		y=2
+		width=200
+		height=152
+	}
+	plotcom {
+		clr=57
+		bclr=57
+	}
+	period=1.000000
+	units="minute"
+	pen[0] {
+		chan="BL24I-DI-QBPM-01:INTEN"
+		clr=46
+		limits {
+			loprSrc="default"
+			loprDefault=3.3
+			hoprSrc="default"
+			hoprDefault=3.8
+		}
+	}
+	pen[1] {
+		chan="BL24I-DI-QBPM-02:INTEN"
+		clr=45
+		limits {
+			loprSrc="default"
+			hoprSrc="default"
+			hoprDefault=8.8
+		}
+	}
+	pen[2] {
+		chan="BL24I-DI-QBPM-03:INTEN"
+		clr=0
+		limits {
+			loprSrc="default"
+			loprDefault=0.5
+			hoprSrc="default"
+			hoprDefault=1.6
+		}
+	}
+	pen[3] {
+		chan="BL24I-OP-ATTN-01:VAC:PRESS"
+		clr=61
+		limits {
+			loprSrc="default"
+			loprDefault=0.0055
+			hoprSrc="default"
+			hoprDefault=0.009
+		}
+	}
+}
+"text update" {
+	object {
+		x=361
+		y=154
+		width=25
+		height=12
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-02:INTEN"
+		clr=56
+		bclr=45
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=332
+		y=154
+		width=25
+		height=12
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-01:INTEN"
+		clr=48
+		bclr=46
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=390
+		y=154
+		width=25
+		height=12
+	}
+	monitor {
+		chan="BL24I-DI-QBPM-03:INTEN"
+		clr=34
+		bclr=30
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=583
+		y=255
+		width=45
+		height=12
+	}
+	monitor {
+		chan="BL24I-AL-APTR-01:MP:SELECT"
+		clr=0
+		bclr=47
+	}
+	align="horiz. centered"
+	limits {
+		precSrc="default"
+	}
+}
+text {
+	object {
+		x=651
+		y=210
+		width=22
+		height=12
+	}
+	"basic attribute" {
+		clr=0
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>0"
+		chan="BL24I-MO-CSTRM-01:P1703:RBV"
+	}
+	textix="OUT"
+	align="horiz. centered"
+}
+rectangle {
+	object {
+		x=644
+		y=243
+		width=30
+		height=12
+	}
+	"basic attribute" {
+		clr=62
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<1"
+		chan="BL24I-MO-CSTRM-01:P1703:RBV"
+	}
+}
+text {
+	object {
+		x=643
+		y=243
+		width=32
+		height=12
+	}
+	"basic attribute" {
+		clr=0
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<1"
+		chan="BL24I-MO-CSTRM-01:P1703:RBV"
+	}
+	textix="IN"
+	align="horiz. centered"
+}
+"strip chart" {
+	object {
+		x=0
+		y=2
+		width=265
+		height=152
+	}
+	plotcom {
+		clr=57
+		bclr=57
+	}
+	period=1.000000
+	units="minute"
+	pen[0] {
+		chan="BL24I-EA-DET-03:STAT:CentroidX_RBV"
+		clr=45
+		limits {
+			loprSrc="default"
+			loprDefault=100
+			hoprSrc="default"
+			hoprDefault=150
+		}
+	}
+	pen[1] {
+		chan="BL24I-EA-DET-03:STAT:CentroidY_RBV"
+		clr=61
+		limits {
+			loprSrc="default"
+			loprDefault=100
+			hoprSrc="default"
+			hoprDefault=150
+		}
+	}
+	pen[2] {
+		chan="BL24I-EA-DET-03:STAT:SigmaX_RBV"
+		clr=44
+		limits {
+			loprSrc="default"
+			loprDefault=15
+			hoprSrc="default"
+			hoprDefault=40
+		}
+	}
+	pen[3] {
+		chan="BL24I-EA-DET-03:STAT:SigmaY_RBV"
+		clr=62
+		limits {
+			loprSrc="default"
+			loprDefault=15
+			hoprSrc="default"
+			hoprDefault=40
+		}
+	}
+}
+"text update" {
+	object {
+		x=13
+		y=154
+		width=30
+		height=12
+	}
+	monitor {
+		chan="BL24I-EA-DET-03:STAT:CentroidX_RBV"
+		clr=13
+		bclr=45
+	}
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=102
+		y=154
+		width=30
+		height=12
+	}
+	monitor {
+		chan="BL24I-EA-DET-03:STAT:CentroidY_RBV"
+		clr=14
+		bclr=61
+	}
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=46
+		y=154
+		width=30
+		height=12
+	}
+	monitor {
+		chan="BL24I-EA-DET-03:STAT:SigmaX_RBV"
+		clr=13
+		bclr=44
+	}
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=135
+		y=154
+		width=30
+		height=12
+	}
+	monitor {
+		chan="BL24I-EA-DET-03:STAT:SigmaY_RBV"
+		clr=13
+		bclr=62
+	}
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+text {
+	object {
+		x=4
+		y=153
+		width=9
+		height=9
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="X"
+}
+text {
+	object {
+		x=93
+		y=153
+		width=9
+		height=9
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Y"
+}
+"text update" {
+	object {
+		x=310
+		y=202
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-EA-DET-03:X.RBV"
+		clr=29
+		bclr=52
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=310
+		y=213
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-EA-DET-03:Y.RBV"
+		clr=29
+		bclr=52
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+composite {
+	object {
+		x=0
+		y=180
+		width=359
+		height=5
+	}
+	"composite name"=""
+	children {
+		byte {
+			object {
+				x=0
+				y=180
+				width=31
+				height=5
+			}
+			monitor {
+				chan="FE24I-RS-ABSB-01:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=14
+		}
+		byte {
+			object {
+				x=30
+				y=180
+				width=17
+				height=5
+			}
+			monitor {
+				chan="FE24I-RS-ABSB-01:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=7
+		}
+		byte {
+			object {
+				x=46
+				y=180
+				width=13
+				height=4
+			}
+			monitor {
+				chan="BL24I-VA-SPACE-91:STA"
+				clr=38
+				bclr=57
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=3
+		}
+		byte {
+			object {
+				x=58
+				y=180
+				width=13
+				height=4
+			}
+			monitor {
+				chan="BL24I-VA-SPACE-01:STA"
+				clr=38
+				bclr=57
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=3
+		}
+		byte {
+			object {
+				x=70
+				y=180
+				width=13
+				height=4
+			}
+			monitor {
+				chan="BL24I-VA-SPACE-02:STA"
+				clr=38
+				bclr=57
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=3
+		}
+		byte {
+			object {
+				x=82
+				y=180
+				width=13
+				height=4
+			}
+			monitor {
+				chan="BL24I-VA-SPACE-03:STA"
+				clr=38
+				bclr=57
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=3
+		}
+		byte {
+			object {
+				x=94
+				y=180
+				width=13
+				height=4
+			}
+			monitor {
+				chan="BL24I-VA-SPACE-04:STA"
+				clr=38
+				bclr=57
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=3
+		}
+		byte {
+			object {
+				x=106
+				y=180
+				width=13
+				height=4
+			}
+			monitor {
+				chan="BL24I-VA-SPACE-05:STA"
+				clr=38
+				bclr=57
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=3
+		}
+		byte {
+			object {
+				x=118
+				y=180
+				width=13
+				height=4
+			}
+			monitor {
+				chan="BL24I-VA-SPACE-06:STA"
+				clr=38
+				bclr=57
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=3
+		}
+		byte {
+			object {
+				x=130
+				y=180
+				width=13
+				height=4
+			}
+			monitor {
+				chan="BL24I-VA-SPACE-07:STA"
+				clr=38
+				bclr=57
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=3
+		}
+		byte {
+			object {
+				x=142
+				y=180
+				width=13
+				height=4
+			}
+			monitor {
+				chan="BL24I-VA-SPACE-08:STA"
+				clr=38
+				bclr=57
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=3
+		}
+		byte {
+			object {
+				x=154
+				y=180
+				width=13
+				height=4
+			}
+			monitor {
+				chan="BL24I-VA-SPACE-09:STA"
+				clr=38
+				bclr=57
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=3
+		}
+		byte {
+			object {
+				x=262
+				y=180
+				width=21
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-VLVCC-01:INT2:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=9
+		}
+		byte {
+			object {
+				x=244
+				y=180
+				width=19
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-VLVCC-01:INT1:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=8
+		}
+		byte {
+			object {
+				x=166
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-VALVE-01:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=176
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-VALVE-02:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=186
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-VALVE-03:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=196
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-VALVE-04:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=206
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-VALVE-05:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=216
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-VALVE-06:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=226
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-VALVE-07:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=234
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-VALVE-08:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=282
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-TMPCC-01:INT1:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=292
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-TMPCC-01:INT2:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=302
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-TMPCC-01:INT3:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=312
+				y=180
+				width=11
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-TMPCC-01:INT4:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=4
+		}
+		byte {
+			object {
+				x=322
+				y=180
+				width=25
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-TMPCC-02:INT1:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=11
+		}
+		byte {
+			object {
+				x=346
+				y=180
+				width=13
+				height=5
+			}
+			monitor {
+				chan="BL24I-VA-TMPCC-02:INT2:RAWILK"
+				clr=57
+				bclr=38
+			}
+			clrmod="discrete"
+			sbit=0
+			ebit=5
+		}
+	}
+}
+byte {
+	object {
+		x=809
+		y=387
+		width=46
+		height=16
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:CRYO_STATUS"
+		clr=61
+		bclr=39
+	}
+	direction="down"
+	sbit=4
+}
+byte {
+	object {
+		x=760
+		y=414
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:ROBOT_OP_0"
+		clr=44
+		bclr=57
+	}
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=760
+		y=403
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:ROBOT_IP_16"
+		clr=44
+		bclr=57
+	}
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=809
+		y=425
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:ROBOT_IP_0"
+		clr=44
+		bclr=57
+	}
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=809
+		y=414
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:STOP_STATUS"
+		clr=44
+		bclr=57
+	}
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=809
+		y=403
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:RUN_STATUS"
+		clr=44
+		bclr=57
+	}
+	sbit=0
+	ebit=14
+}
+byte {
+	object {
+		x=760
+		y=425
+		width=46
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:ROBOT_OP_16"
+		clr=44
+		bclr=57
+	}
+	sbit=0
+	ebit=14
+}
+"text update" {
+	object {
+		x=763
+		y=436
+		width=66
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:CMD_RESPONSE"
+		clr=44
+		bclr=57
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=763
+		y=447
+		width=66
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:LOCATION_MSG"
+		clr=44
+		bclr=57
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=763
+		y=458
+		width=66
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:PROGRAM_NAME"
+		clr=44
+		bclr=57
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=834
+		y=436
+		width=20
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:PRG_ERR_CODE"
+		clr=44
+		bclr=57
+	}
+	align="horiz. right"
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=834
+		y=447
+		width=20
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:RUN_ERR_CODE"
+		clr=44
+		bclr=57
+	}
+	align="horiz. right"
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=834
+		y=458
+		width=20
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:CNTL_ERR_CODE"
+		clr=44
+		bclr=57
+	}
+	align="horiz. right"
+	format="string"
+	limits {
+	}
+}
+text {
+	object {
+		x=736
+		y=389
+		width=80
+		height=12
+	}
+	"basic attribute" {
+		clr=47
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="BL24I-MO-ROBOT-01:PIN_MOUNTED"
+	}
+	textix="Puck Pin"
+}
+text {
+	object {
+		x=775
+		y=559
+		width=40
+		height=12
+	}
+	"basic attribute" {
+		clr=45
+	}
+	textix="2"
+}
+rectangle {
+	object {
+		x=756
+		y=571
+		width=25
+		height=1
+	}
+	"basic attribute" {
+		clr=45
+	}
+}
+composite {
+	object {
+		x=80
+		y=190
+		width=6
+		height=55
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=80
+				y=190
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=80
+				y=196
+				width=1
+				height=46
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=80
+				y=239
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>47.1||A<46.9"
+		chan="BL24I-DI-PHDGN-01:P:UPD.D"
+	}
+}
+"shell command" {
+	object {
+		x=767
+		y=626
+		width=80
+		height=20
+	}
+	command[0] {
+		label="Wall"
+		name="firefox"
+		args="-new-window http://172.23.124.176/view/index.shtml &"
+	}
+	command[1] {
+		label="Top"
+		name="firefox"
+		args="-new-window http://172.23.124.177/view/index.shtml &"
+	}
+	command[2] {
+		label="Fence"
+		name="firefox"
+		args="-new-window http://172.23.124.179/view/index.shtml &"
+	}
+	command[3] {
+		label="OAV1"
+		name="ffmpegViewer"
+		args="-d http://bl24i-di-serv-01.diamond.ac.uk:8080/oav.mjpg.mjpg &"
+	}
+	command[4] {
+		label="OAV2"
+		name="ffmpegViewer"
+		args="-d http://bl24i-di-serv-01.diamond.ac.uk:8081/oav2.mjpg.mjpg &"
+	}
+	command[5] {
+		label="Lance"
+		name="ffmpegViewer"
+		args="http://bl24i-di-serv-02.diamond.ac.uk:8098/Lance01.mjpg.mjpg &"
+	}
+	clr=48
+	bclr=57
+	label="Cameras"
+}
+composite {
+	object {
+		x=310
+		y=191
+		width=6
+		height=43
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=310
+				y=191
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=310
+				y=197
+				width=1
+				height=36
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+		rectangle {
+			object {
+				x=310
+				y=228
+				width=6
+				height=6
+			}
+			"basic attribute" {
+				clr=38
+				width=9
+			}
+		}
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A<1.3"
+		chan="BL24I-DI-QBPM-02:INTEN"
+	}
+}
+"text update" {
+	object {
+		x=809
+		y=373
+		width=20
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:NEXT_PUCK_RBV"
+		clr=34
+		bclr=49
+	}
+	align="horiz. right"
+	format="truncated"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=831
+		y=373
+		width=22
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:NEXT_PIN_RBV"
+		clr=34
+		bclr=50
+	}
+	align="horiz. right"
+	format="truncated"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+rectangle {
+	object {
+		x=782
+		y=387
+		width=19
+		height=3
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="BL24I-MO-ROBOT-01:PIN_MOUNTED"
+	}
+}
+rectangle {
+	object {
+		x=784
+		y=377
+		width=15
+		height=12
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="BL24I-MO-ROBOT-01:PIN_MOUNTED"
+	}
+}
+rectangle {
+	object {
+		x=790
+		y=355
+		width=2
+		height=19
+	}
+	"basic attribute" {
+		clr=37
+		width=9
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="BL24I-MO-ROBOT-01:PIN_MOUNTED"
+	}
+}
+rectangle {
+	object {
+		x=785
+		y=374
+		width=13
+		height=3
+	}
+	"basic attribute" {
+		clr=38
+		width=9
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="BL24I-MO-ROBOT-01:PIN_MOUNTED"
+	}
+}
+"text update" {
+	object {
+		x=735
+		y=376
+		width=20
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:CURRENT_PUCK_RBV"
+		clr=47
+		bclr=49
+	}
+	format="truncated"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=764
+		y=376
+		width=20
+		height=12
+	}
+	monitor {
+		chan="BL24I-MO-ROBOT-01:CURRENT_PIN_RBV"
+		clr=47
+		bclr=49
+	}
+	format="truncated"
+	limits {
+		precSrc="default"
+		precDefault=2
+	}
+}
+"text update" {
+	object {
+		x=644
+		y=230
+		width=20
+		height=14
+	}
+	monitor {
+		chan="BL24I-EA-CSTRM-01:TEMP"
+		clr=0
+		bclr=62
+	}
+	align="horiz. centered"
+	limits {
+		hoprDefault=250
+		precSrc="default"
+	}
+}
+rectangle {
+	object {
+		x=527
+		y=180
+		width=115
+		height=23
+	}
+	"basic attribute" {
+		clr=38
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>102"
+		chan="BL24I-EA-CSTRM-01:TEMP"
+	}
+}
+text {
+	object {
+		x=575
+		y=185
+		width=20
+		height=12
+	}
+	"basic attribute" {
+		clr=34
+	}
+	"dynamic attribute" {
+		vis="calc"
+		calc="A>102"
+		chan="BL24I-EA-CSTRM-01:TEMP"
+	}
+	textix="!!!CRYO TOO HOT!!!"
+	align="horiz. centered"
+}
+"text update" {
+	object {
+		x=471
+		y=81
+		width=35
+		height=12
+	}
+	monitor {
+		chan="BL24I-OP-ATTN-01:VAC:PRESS"
+		clr=0
+		bclr=61
+	}
+	align="horiz. right"
+	limits {
+		precSrc="default"
+		precDefault=5
+	}
+}
+text {
+	object {
+		x=479
+		y=93
+		width=21
+		height=18
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Press"
+	align="horiz. centered"
+}
+composite {
+	object {
+		x=663
+		y=230
+		width=13
+		height=13
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=663
+				y=230
+				width=12
+				height=13
+			}
+			"basic attribute" {
+				clr=62
+			}
+		}
+		text {
+			object {
+				x=666
+				y=230
+				width=10
+				height=12
+			}
+			"basic attribute" {
+				clr=0
+			}
+			textix="K"
+		}
+	}
+}
